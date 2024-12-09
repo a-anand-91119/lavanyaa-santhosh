@@ -4,6 +4,7 @@ pkgs.mkShell
 {
   nativeBuildInputs = with pkgs; [
     yarn
+    nodejs_23
   ];
 
   shellHook = ''
