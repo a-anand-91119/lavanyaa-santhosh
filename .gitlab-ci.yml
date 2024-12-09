@@ -1,0 +1,34 @@
+stages:
+  - install
+  - test
+  - build
+
+install_dependencies:
+  stage: install
+  image: node:18
+  script:
+    - yarn install
+  artifacts:
+    paths:
+      - node_modules/
+    expire_in: 1 hour
+
+run_tests:
+  stage: test
+  image: node:18
+  dependencies:
+    - install_dependencies
+  script:
+    - yarn test --watchAll=false
+
+build_app:
+  stage: build
+  image: node:18
+  dependencies:
+    - install_dependencies
+  script:
+    - yarn build
+  artifacts:
+    paths:
+      - build/
+    expire_in: 1 week
