@@ -71,7 +71,8 @@ class Header extends Component {
                                 </nav>
                             </div>
                             <div className="hire-me-s1 btn-general btn-hv-common d-lg-flex align-items-center">
-                                <Link to="#" className="btn-inner border-corner2 lt-sp08 text-white">Hire Me</Link>
+                                <Link to={{pathname: "https://topmate.io/lavanyaa_santhosh"}} target="_blank"
+                                      className="btn-inner border-corner2 lt-sp08 text-white">Talk To Me</Link>
                             </div>
                         </div>
                         <div dir="rtl" className="btn-menu mobile-header__menu-button">
