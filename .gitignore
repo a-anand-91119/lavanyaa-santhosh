@@ -1,3 +1,8 @@
 node_modules
 yarn.lock
 build
+downloader.py
+downloaded_images
+.DS_Store
+.idea
+
