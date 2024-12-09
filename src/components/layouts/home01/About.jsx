@@ -57,12 +57,12 @@ class About extends Component {
                                 <h4 className="sub-title mg-b22">About Me</h4>
                                 <h2 className="title-section mg-b26 color-d12">Hi, I am here to <span className="color-d4">help you.</span></h2>
                                 <p>
-                                    Hi, if you need  PSD template, landing page or Website design within a day? then you can tell me, I'm here to help you. I can design any kind of PSD template. Check my portfolio.
+                                    With years of experience in counseling, I specialize in helping people navigate personal struggles, addiction, trauma, and relationship challenges. My approach is tailored to your unique needs, fostering understanding, healing, and growth.
                                 </p>
                             </div>
                             <div className="animate-element wow delay5 fadeInUp" data-wow-delay="0.5s">
                                 <div className="fl-btn btn-general">
-                                    <Link to="#" className="f-w500 color-1 lt-sp07">Hire Me</Link>
+                                    <Link to="#" className="f-w500 color-1 lt-sp07">Contact Me</Link>
                                 </div>
                             </div>
                         </div>
