@@ -11,7 +11,7 @@ class About extends Component {
                     classname: 'profile-link border-corner2 d-flex align-items-center',
                     images: './images/section/05.png',
                     alt: 'images',
-                    name: 'Dribbble',
+                    name: 'Instagram',
                     normal: 'Follow Me'
                 },
                 {
@@ -19,23 +19,23 @@ class About extends Component {
                     classname: 'profile-link border-corner2 d-flex align-items-center',
                     images: './images/section/06.png',
                     alt: 'images',
-                    name: 'Behance',
-                    normal: 'See My Design'
+                    name: 'Youtube',
+                    normal: 'See My Videos'
                 },
                 {
                     id: 3,
                     classname: 'profile-link border-corner2 d-flex align-items-center',
                     images: './images/section/07.png',
                     alt: 'images',
-                    name: 'Uplabs',
-                    normal: 'Download Here'
+                    name: 'Twitter',
+                    normal: 'See My Tweets'
                 },
                 {
                     id: 4,
                     classname: 'profile-link border-corner2 d-flex align-items-center',
                     images: './images/section/08.png',
                     alt: 'images',
-                    name: 'Skype',
+                    name: 'Topmate',
                     normal: 'Connect with me'
                 }
             ]
@@ -47,7 +47,7 @@ class About extends Component {
                 <div className="d-lg-flex">
                     <div className="col-left">
                         <div className="featured-post animate-element wow delay5 fadeInUp" data-wow-delay="0.5s">
-                            <img src="images/section/03.png" alt="images"/>
+                            <img src="images/section/about-me-small.png" alt="images"/>
                         </div>
                     </div>
                     <div className="col-right">

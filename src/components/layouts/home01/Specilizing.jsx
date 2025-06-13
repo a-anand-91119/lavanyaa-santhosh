@@ -12,28 +12,28 @@ class Specilizing extends Component {
                     iconbox: 'iconbox-s1 d-sm-flex align-items-center',
                     iconcolor: 'iconbox-icon color1',
                     spanicon: 'icon-designer',
-                    title: 'Web Ui Design',
-                    text01: "I'm a professional UX designer with 4 years of",
-                    text02: 'experience. My main focus is on listening.'
+                    title: 'Relationship and Family Dynamics',
+                    text01: "Enhancing relationships and resolving interpersonal conflicts.",
+                    text02: 'I help couples and families strengthen their bonds through effective communication.'
                 },
                 {
                     id: 2,
                     iconbox: 'iconbox-s1 d-sm-flex justify-content-lg-center align-items-center mgl-iconbox-s1',
                     iconcolor: 'iconbox-icon color2 color1',
                     spanicon: 'icon-designer',
-                    title: 'Mobile Ui Design',
-                    text01: "I'm a professional UX designer with 4 years of",
-                    text02: 'experience. My main focus is on listening.'
+                    title: 'Trauma and PTSD Counseling',
+                    text01: "Specializing in helping individuals recover from traumatic experiences.",
+                    text02: 'I provide a safe and empathetic environment to process past trauma.'
                 },
                 {
                     id: 3,
                     iconbox: 'iconbox-s1 d-sm-flex justify-content-lg-end align-items-center mgr-iconbox-s1',
                     iconcolor: 'iconbox-icon color3',
                     spanicon: 'icon-brand',
-                    title: 'Branding Design',
-                    text01: "I'm a professional UX designer with 4 years of",
-                    text02: 'experience. My main focus is on listening.'
-                },
+                    title: 'Addiction Recovery Support',
+                    text01: "Guiding individuals to overcome substance and behavioral addictions.",
+                    text02: 'I use evidence-based methods to address the root causes of addiction.'
+                }
             ]
         }
     }
@@ -53,10 +53,11 @@ class Specilizing extends Component {
                             }
                             <div className="flat-spacer" data-desktop="0" data-mobile="0" data-smobile="0"></div>
                             <div className="fact">
-                                <NumberCount />
+                                {/*<NumberCount />*/}
                                 <div className="btn-contact bg-s1 text-center">
-                                    <h4 className="title color-d12">Get a project? Let’s talk.</h4>
-                                    <Link to="#" className="email color-s1 color-d14">yourmail@email.com</Link>
+                                    <h5 className="title color-d12">Something troubling you? Let’s talk.</h5>
+                                    {/*<Link to={{pathname: "https://topmate.io/lavanyaa_santhosh"}} target="_blank" className="email color-s1 color-d14">Get Free Exploratory Session</Link>*/}
+                                    <Link to={{pathname: "https://topmate.io/lavanyaa_santhosh"}} target="_blank" className="email color-s1 color-d14">Get Free Exploratory Session</Link>
                                 </div>
                             </div>
                             

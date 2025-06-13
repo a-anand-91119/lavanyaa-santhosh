@@ -53,19 +53,19 @@ class Home01 extends Component {
                 <div id="content" className="content">
                     <div className="homepage-personal">
                         <Banner />
-                        <div className="section slide-personal-Intro-second slide-dark">
-                            <section className="testimonial s1 shape-am" id="testimonial">
-                                {
-                                    this.state.shapeicon.map(data =>(
-                                        <ShapeIcon key={data.id} data={data}/>
-                                    ))
-                                }
-                                <div className="animate-element wow delay5 fadeZooming" data-wow-delay="0.5s">
-                                    <h2 className="text-client-love">Clients Love</h2>
-                                </div>
-                                <Testimonial />
-                            </section>
-                        </div>
+                        {/*<div className="section slide-personal-Intro-second slide-dark">*/}
+                        {/*    <section className="testimonial s1 shape-am" id="testimonial">*/}
+                        {/*        {*/}
+                        {/*            this.state.shapeicon.map(data =>(*/}
+                        {/*                <ShapeIcon key={data.id} data={data}/>*/}
+                        {/*            ))*/}
+                        {/*        }*/}
+                        {/*        <div className="animate-element wow delay5 fadeZooming" data-wow-delay="0.5s">*/}
+                        {/*            <h2 className="text-client-love">Clients Love</h2>*/}
+                        {/*        </div>*/}
+                        {/*        <Testimonial />*/}
+                        {/*    </section>*/}
+                        {/*</div>*/}
                         <div className="section slide-personal-Intro-second slide-dark bg-white">
                             <section className="profile s1">
                                 <div className="container" id="about">
